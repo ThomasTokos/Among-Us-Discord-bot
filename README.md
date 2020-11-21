@@ -2,11 +2,11 @@
 A fun, costume Discord Bot made in TypeScript to help large groups who play Among Us
 
 ## Commands
-`!help` This command will send the user who typed it a message in their DMs with a list of all the commands.
-`!m` mutes all players in the current voice channel. Admin Only
-`!um` unmutes all players in the current voice channel. Admin Only
-`!d2p` runs the down2play command. It will create a message in that channel asking users to react to the message if they want to play a game of Among us. With each reaction, the bot then adds their name to the list.
-`!queue` Enters that user into a queue, if you're Among Us lobby is full this is useful to keep track to see who is ready to play next!
+`!help` This command will send the user who typed it a message in their DMs with a list of all the commands./n
+`!m` mutes all players in the current voice channel. Admin Only/n
+`!um` unmutes all players in the current voice channel. Admin Only/n
+`!d2p` runs the down2play command. It will create a message in that channel asking users to react to the message if they want to play a game of Among us. With each reaction, the bot then adds their name to the list./n
+`!queue` Enters that user into a queue, if you're Among Us lobby is full this is useful to keep track to see who is ready to play next!/n
 `!nextInqueue` Selects the next person in the queue. Admin Only
 
 ## Configuration
