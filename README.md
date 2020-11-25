@@ -2,12 +2,12 @@
 A fun, costume Discord Bot made in TypeScript to help large groups who play Among Us
 
 ## Commands
-`!help` This command will send the user who typed it a message in their DMs with a list of all the commands. 
-`!m` mutes all players in the current voice channel. Admin Only
-`!um` unmutes all players in the current voice channel. Admin Only
-`!d2p` runs the down2play command. It will create a message in that channel asking users to react to the message if they want to play a game of Among us. With each reaction, the bot then adds their name to the list.
-`!queue` Enters that user into a queue, if you're Among Us lobby is full this is useful to keep track to see who is ready to play next!
-`!nextInqueue` Selects the next person in the queue. Admin Only
+ - `!help` This command will send the user who typed it a message in their DMs with a list of all the commands.
+ - `!m` mutes all players in the current voice channel. Admin Only
+ - `!um` unmutes all players in the current voice channel. Admin Only
+ - `!d2p` runs the down2play command. It will create a message in that channel asking users to react to the message if they want to play a game of Among us. With each reaction, the bot then adds their name to the list.
+ - `!queue` Enters that user into a queue, if you're Among Us lobby is full this is useful to keep track to see who is ready to play next!
+ - `!nextInQueue` Selects the next person in the queue. Admin Only
 
 ## Configuration
 
@@ -19,20 +19,14 @@ You can change anything from the reaction the bot post when the down to play com
 This bot has two different configs, one for testing and the other for running the bot.
 To run the bot for production, please make sure you input the correct requirements.
 
-##
-
 ## Requirements
-Node JavaScript, TypeScript
+Node.js 12.x or later
 A Discord Account to create the bot account.
 
 ## Installation
-You can install the script by doing,
-
 ```bash
 git clone https://github.com/ThomasTokos/Among-Us-Discord-bot.git
-```
-### You will also need to install the requirements found in package.json  
-```bash
+cd ./Among-Us-Discord-bot
 npm install
 ```
 
